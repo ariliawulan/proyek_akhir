@@ -50,7 +50,7 @@ def create_rfm_df(df):
     return rfm_df
 
 # Menggunakan path relatif ke file CSV yang berada dalam satu folder dengan dashboard.py
-all_df = pd.read_csv('all_data_new.csv')
+all_df = pd.read_csv('dashboard/all_data_new.csv')
 
 # helper function untuk konversi datetime
 datetime_columns = ['order_purchase_timestamp', 'order_delivered_customer_date']
