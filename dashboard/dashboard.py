@@ -92,7 +92,7 @@ rfm_df = create_rfm_df(main_df)
 # MELENGKAPI DASHBOARD DENGAN BERBAGAI VISUALISASI DATA
 
 # Header
-st.header('Dicoding Collection Dashboard :sparkles:')
+st.header('Dashboard Penjualan :sparkles:')
 
 # Menampilkan rata-rata waktu pengiriman
 st.subheader('Average Delivery Time')
