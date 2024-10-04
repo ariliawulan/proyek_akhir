@@ -65,7 +65,7 @@ min_date = all_df['order_purchase_timestamp'].min()
 max_date = all_df['order_purchase_timestamp'].max()
 
 with st.sidebar:
-    st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
+    st.image("https://kledo.com/blog/wp-content/uploads/2022/06/penjualan-berbasis-online-1024x576.jpg")
     start_date, end_date = st.date_input(
         label='Rentang Waktu', min_value=min_date,
         max_value=max_date,
